@@ -1,0 +1,7 @@
+/home/youssef/CLionProjects/SuperMeatBoy/cmake-build-debug/CMakeFiles/SuperMeatBoy.dir
+/home/youssef/CLionProjects/SuperMeatBoy/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/youssef/CLionProjects/SuperMeatBoy/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/youssef/CLionProjects/SuperMeatBoy/cmake-build-debug/CMakeFiles/list_install_components.dir
+/home/youssef/CLionProjects/SuperMeatBoy/cmake-build-debug/CMakeFiles/install.dir
+/home/youssef/CLionProjects/SuperMeatBoy/cmake-build-debug/CMakeFiles/install/local.dir
+/home/youssef/CLionProjects/SuperMeatBoy/cmake-build-debug/CMakeFiles/install/strip.dir
