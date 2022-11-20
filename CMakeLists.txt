@@ -12,7 +12,7 @@ FIND_PACKAGE(SFML 2 COMPONENTS system window graphics)
 INCLUDE_DIRECTORIES(SFML-2.5.1/include)
 
 # The source files to compile
-SET(SRC main.cpp)
+SET(SRC main.cpp Game.cpp Game.h Stopwatch.cpp Stopwatch.h World.cpp World.h Camera.cpp Camera.h)
 
 # The program we're compiling with the sources set above
 ADD_EXECUTABLE(SuperMeatBoy ${SRC})
