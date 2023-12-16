@@ -1,5 +1,5 @@
-Project Advanced Programming 2022-2023
+Super Meat Boy
 =======================================
-
 Name: Youssef El Aseri
-Student number: s20214186
+
+A fun Super Meat Boy clone made with the SFML game engine.
