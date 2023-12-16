@@ -50,12 +50,8 @@ struct SFML_GRAPHICS_API BlendMode
     {
         Zero,             ///< (0, 0, 0, 0)
         One,              ///< (1, 1, 1, 1)
-        SrcColor,         ///< (src.r, src.g, src.b, src.a)
-        OneMinusSrcColor, ///< (1, 1, 1, 1) - (src.r, src.g, src.b, src.a)
         DstColor,         ///< (dst.r, dst.g, dst.b, dst.a)
         OneMinusDstColor, ///< (1, 1, 1, 1) - (dst.r, dst.g, dst.b, dst.a)
-        SrcAlpha,         ///< (src.a, src.a, src.a, src.a)
-        OneMinusSrcAlpha, ///< (1, 1, 1, 1) - (src.a, src.a, src.a, src.a)
         DstAlpha,         ///< (dst.a, dst.a, dst.a, dst.a)
         OneMinusDstAlpha  ///< (1, 1, 1, 1) - (dst.a, dst.a, dst.a, dst.a)
     };
@@ -186,12 +182,9 @@ SFML_GRAPHICS_API extern const BlendMode BlendNone;     ///< Overwrite dest with
 ///
 /// The blend factors and equations correspond to their OpenGL equivalents.
 /// In general, the color of the resulting pixel is calculated according
-/// to the following formula (\a src is the color of the source pixel, \a dst
 /// the color of the destination pixel, the other variables correspond to the
 /// public members, with the equations being + or - operators):
 /// \code
-/// dst.rgb = colorSrcFactor * src.rgb (colorEquation) colorDstFactor * dst.rgb
-/// dst.a   = alphaSrcFactor * src.a   (alphaEquation) alphaDstFactor * dst.a
 /// \endcode
 /// All factors and colors are represented as floating point numbers between
 /// 0 and 1. Where necessary, the result is clamped to fit in that range.
